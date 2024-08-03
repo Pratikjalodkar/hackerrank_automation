@@ -153,7 +153,7 @@ function questionSolver( page, question, answer) {
         let controlisUnpressed = page.keyboard.up("Control");
         return controlisUnpressed;
       }).then(function () {
-        return page.click(".ui-content align-icon-right", { delay: 50 });
+        return page.click(".ui-btn-normal.ui-btn-primary", { delay: 50 });
       }).then(function () { 
         resolve()
       }).catch(function (err) { 

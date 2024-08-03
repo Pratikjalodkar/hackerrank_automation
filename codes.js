@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   answers: [
     `#include <cmath>
 #include <cstdio>
